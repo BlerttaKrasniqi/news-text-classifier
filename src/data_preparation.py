@@ -53,3 +53,8 @@ for i,label in enumerate(["World","Sports","Business","Sci/Tech"]):
 
     print(f"Duplicate datas in train set: {train_data.duplicated().sum()}")
     print(f"Duplicate datas in test set: {test_data.duplicated().sum()}")
+
+
+
+train_data = train_data.drop_duplicates()
+print(f"Duplicate datas after removal: {train_data.duplicated().sum()}")
