@@ -33,3 +33,23 @@ plt.figure(figsize=(10,10))
 plt.imshow(wordcloud,interpolation="bilinear")
 plt.axis("off")
 plt.show()
+
+
+# vectorizer = TfidfVectorizer(stop_words="english",max_features=10)
+
+features_names = vectorizer.get_feature_names_out()
+
+x_train_dense = x_train.toarray()
+
+for i,label in enumerate(["World","Sports","Business","Sci/Tech"]):
+    print(f"Top 10 words for {label} class:")
+    top_indicies = x_train_dense[train_data['label']==i].mean(axis=0).argsort()[::-1]
+    top_words = [features_names[idx] for idx in top_indicies[:10]]
+    print(", ".join(top_words))
+
+
+    print(f"Missing values in train set: {train_data.isnull().sum()}")
+    print(f"Missing values in test set: {test_data.isnull().sum()}")
+
+    print(f"Duplicate datas in train set: {train_data.duplicated().sum()}")
+    print(f"Duplicate datas in test set: {test_data.duplicated().sum()}")
