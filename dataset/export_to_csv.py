@@ -20,4 +20,4 @@ def write(dataset,path):
 
 write(dataset_train, "data/train.csv")
 write(dataset_test,"data/test.csv")
-print("Wrote data/train.csv and data/test.csv")
+print("Wrote data/train.csv and data/test.csv") 
