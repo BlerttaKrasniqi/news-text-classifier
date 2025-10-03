@@ -40,7 +40,7 @@ manipulation and model training.
      <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/4981bcb6-6763-421b-ae20-f1ea6f8bfaee" />       
   - 4. **World Cloud Visualization**
      - World Cloud is generated to visualize the most frequent words in the training set.
-     <img width="820" height="105" alt="image" src="https://github.com/user-attachments/assets/89a14946-e225-448d-8237-fdf6d15c40af" />
+<img width="820" height="105" alt="image" src="https://github.com/user-attachments/assets/89a14946-e225-448d-8237-fdf6d15c40af" />
      -  This helps understanding the key terms associated with the news articles and their categories.
        
      <img width="1078" height="598" alt="image" src="https://github.com/user-attachments/assets/8be73df9-0dba-4fac-9afd-3b6a968131a6" />
