@@ -97,7 +97,7 @@ manipulation and model training.
      - FastAPI generates interactive Swagger UI for testing the API.
      - **GET /**: A simple message
      <img width="1774" height="816" alt="image" src="https://github.com/user-attachments/assets/012d5f96-dfc7-49cf-bbf9-4972a049505d" />
-     - **POST /predict**: Accepts a news article text and predicts its category.
+     - POST /predict: Accepts a news article text and predicts its category.
      - Request: http://127.0.0.1:8000/predict
      <img width="1816" height="802" alt="image" src="https://github.com/user-attachments/assets/0705c973-fa3e-45ce-aeda-11d9134bcab9" />
      - Results after execution:
