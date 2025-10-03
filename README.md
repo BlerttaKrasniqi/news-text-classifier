@@ -72,7 +72,7 @@ manipulation and model training.
      - After training the models, their performance is evaluated on the test data. The evaluation is done using the following metrics: accuracy, precision, recall, and F1-Score.
      <img width="529" height="570" alt="image" src="https://github.com/user-attachments/assets/ce5b2823-d1ee-482e-88b5-f4d5ca2140e1" />
      - Their performance is also visualized using a confusion matrix, which shows how well the model has classified each category.
-     <img width="1874" height="746" alt="image" src="https://github.com/user-attachments/assets/eabdc608-66d4-435e-88c8-d754b79e60c3" />
+<img width="1874" height="746" alt="image" src="https://github.com/user-attachments/assets/eabdc608-66d4-435e-88c8-d754b79e60c3" />
      
 - 4. **Model Comparison**
        - By comparing the evaluation metrics of Logistic Regression and Naive Bayes, we can determine which model performs better on this classification task.
