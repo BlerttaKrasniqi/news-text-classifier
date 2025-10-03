@@ -47,7 +47,7 @@ manipulation and model training.
   - 5. **Top words for each category**
        - We compute the top 10 words for each news category using the TF-IDF values.
        <img width="878" height="415" alt="image" src="https://github.com/user-attachments/assets/7c504692-dcb5-4e01-a065-e450f0fd65b4" />
-       - For each category (World, Sports, Business, Sci/Tech), we compute the mean TF-IDF score for each word, sort them by importance, and print the top 10 words.
+    - For each category (World, Sports, Business, Sci/Tech), we compute the mean TF-IDF score for each word, sort them by importance, and print the top 10 words.
        
        <img width="743" height="795" alt="image" src="https://github.com/user-attachments/assets/791c0c7e-1185-4b26-9013-319402c82362" />
 
