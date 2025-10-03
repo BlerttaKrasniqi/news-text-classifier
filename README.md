@@ -54,3 +54,4 @@ foto
 - 4. **Model Comparison**
        - By comparing the evaluation metrics of Logistic Regression and Naive Bayes, we can determine which model performs better on this classification task.
        - The confusion matrix provides further insight into the types of errors each model makes.
+- 5. **Results**
