@@ -40,3 +40,17 @@ foto
   - 6. ** Missing Values and Duplicates*
        - Missing values were checked both in training set and in testing set. This ensures that no data is missing in the text or label columns, which is important for accurate model training.
       fotoooo
+
+
+## Model training
+- In this phase, the machine learning models were trained for the task of classifying news articles into four categories: World, Sports, Business, and Sci/tech. The goal of this phase is to build a classification model, evaluate its performance, and compare models to identify the best one.
+- 1. **Model Selection**
+     - Logistic Regression is used as the primary model for text classification. Logistic Regression is a linear classifier.
+     - Additionally, Naive Bayes is compared, which is a probabilistic model commonly used for text classification tasks.
+- 2. **Training the models**
+     - Logistic Regression and Naive Bayes models are trained using the preprocessed data that were created in the previous phase (after TF-IDF vectorization).
+- 3. **Model Evaluation**
+     - After training the models, their performance is evaluated on the test data. The evaluation is done using the following metrics: accuracy, precision, recall, and F1-Score. Their performance is also visualized using a confusion matrix, which shows how well the model has classified each category.
+- 4. **Model Comparison**
+       - By comparing the evaluation metrics of Logistic Regression and Naive Bayes, we can determine which model performs better on this classification task.
+       - The confusion matrix provides further insight into the types of errors each model makes.
