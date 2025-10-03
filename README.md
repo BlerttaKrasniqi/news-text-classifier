@@ -2,11 +2,18 @@
 - The AG News Subset dataset is used for text classification task with 4 categories of news articles: World, Business, Sports, and Sci/Tech.
 - The dataset was downloaded and cached using **TensorFlow Datasets (TFDS)**. Additionally, the dataset was exported to CSV format for easier
 manipulation and model training.
+<img width="820" height="235" alt="image" src="https://github.com/user-attachments/assets/01a346f6-eb4e-4790-a85e-d65886ce001a" />
+
 - Dataset link: https://www.tensorflow.org/datasets/catalog/ag_news_subset
 ## Data loading and Export Process
-
+- The data is loaded into the system using **Pandas**, a python library for data manipulation. The training and test datasets are loaded into seperate variables train_data and test_data.
+  <img width="461" height="69" alt="image" src="https://github.com/user-attachments/assets/55bd3a75-28d4-419c-bec2-fc2cb9ec42f5" />
 ## Exporting to CSV
-foto
+- The dataset is processed by concatenating the title and description of each article into a single text field.
+- The processed text, along with the corresponding label, is then saved into CSV files for easy use in the future steps.
+- The **write()** function is used to export the data to CSV format. It creates the CSV files and writes the data with the columns "text", and "label".
+<img width="830" height="576" alt="image" src="https://github.com/user-attachments/assets/ce75e676-44b0-4872-926b-1f763d29de78" />
+
 
 ## Data preprocessing and cleaning
 - In this phase, several data preparation and cleaning steps were performed, to ensure that the data is in a suitable format for training the machine learning model.
