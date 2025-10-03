@@ -9,6 +9,7 @@ manipulation and model training.
 - The data is loaded into the system using **Pandas**, a python library for data manipulation.
 - The training and test datasets are loaded into seperate variables train_data and test_data.
 <img width="461" height="69" alt="image" src="https://github.com/user-attachments/assets/55bd3a75-28d4-419c-bec2-fc2cb9ec42f5" />
+
 ## Exporting to CSV
 - The dataset is processed by concatenating the title and description of each article into a single text field.
 - The processed text, along with the corresponding label, is then saved into CSV files for easy use in the future steps.
