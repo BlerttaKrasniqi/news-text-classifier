@@ -26,15 +26,16 @@ manipulation and model training.
      
 - 2. **Text Vectorization with TF-IDF**:
       - TF-IDF (Term Frequency-Inverse Document Frequency) vectorizer is used from **scikit-learn** to transform the text data into numerical features.
-      - The **stop-words="english"** parameter removes common English stopwords (the, and, is)/
-      - Bigrams **(ngram_range=(1,2))** is used to capture word pairs.
-      - Transformation of training data and testing data using the same vectorizer
+      - The **stop-words="english"** parameter removes common English stopwords (the, and, is)
+      - Bigram **(ngram_range=(1,2))** is used to capture word pairs.
+      - Transformation of training data and testing data using the same vectorizer.
      - Trained vectorizer is saved using **joblib** so it can be reused for prediction.
      <img width="890" height="171" alt="image" src="https://github.com/user-attachments/assets/ea8d35ae-793c-47b4-9f49-a69348d65440" />
 
   - 3. **Class Distribution Visualization**
        - Distribution of the news categories in the training set was visualized using a bar chart.
     <img width="842" height="161" alt="image" src="https://github.com/user-attachments/assets/84742b8f-3ed8-47d9-82b8-c17f72a633a2" />
+    
        - The chart shows how many samples belong to each category (World, Sports, Business, Sci/Tech).
      <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/4981bcb6-6763-421b-ae20-f1ea6f8bfaee" />       
   - 4. **World Cloud Visualization**
@@ -47,7 +48,7 @@ manipulation and model training.
        - For each category (World, Sports, Business, Sci/Tech), we compute the mean TF-IDF score for each word, sort them by importance, and print the top 10 words.
        <img width="878" height="415" alt="image" src="https://github.com/user-attachments/assets/7c504692-dcb5-4e01-a065-e450f0fd65b4" />
 
-  - 6. ** Missing Values and Duplicates*
+  - 6. **Missing Values and Duplicates**
        - Missing values were checked both in training set and in testing set. This ensures that no data is missing in the text or label columns, which is important for accurate model training.
        <img width="707" height="158" alt="image" src="https://github.com/user-attachments/assets/fcdebfda-6af2-4e09-9d5e-7459b8e33dfc" />
 
