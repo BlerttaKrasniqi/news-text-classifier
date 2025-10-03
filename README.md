@@ -6,3 +6,37 @@ manipulation and model training.
 ## Data loading and Export Process
 
 ## Exporting to CSV
+foto
+
+## Data preprocessing and cleaning
+- In this phase, several data preparation and cleaning steps were performed, to ensure that the data is in a suitable format for training the machine learning model.
+- Steps taken:
+- 1. **Loading the Dataset**:
+     - We load the training and testing datasets from CSV files using **pandas.read_csv()**.
+     - The dataset consists of news articles with their corresponding labels (World, Sports, Business, Sci/Tech).
+       fotoo
+- 2. **Text Vectorization with TF-IDF**:
+      - TF-IDF (Term Frequency-Inverse Document Frequency) vectorizer is used from **scikit-learn** to transform the text data into numerical features.
+      - The **stop-words="english"** parameter removes common English stopwords (the, and, is)/
+      - Bigrams **(ngram_range=(1,2))** is used to capture word pairs.
+        fotooja e transofrmit
+      - Transformation of training data and testing data using the same vectorizer
+     foto
+        - Trained vectorizer is saved using **joblib** so it can be reused for prediction.
+          fotooo
+  - 3. **Class Distribution Visualization**
+       - Distribution of the news categories in the training set was visualized using a bar chart.
+       - The chart shows how many samples belong to each category (World, Sports, Business, Sci/Tech).
+         fotoja e kodit
+  - 4. **World Cloud Visualization**
+       - World Cloud is generated to visualize the most frequent words in the training set.
+       - This helps understanding the key terms associated with the news articles and their categories.
+      
+       fotooja e kodit
+  - 5. **Top words for each category**
+       - We compute the top 10 words for each news category using the TF-IDF values.
+       - For each category (World, Sports, Business, Sci/Tech), we compute the mean TF-IDF score for each word, sort them by importance, and print the top 10 words.
+      fotojajaa
+  - 6. ** Missing Values and Duplicates*
+       - Missing values were checked both in training set and in testing set. This ensures that no data is missing in the text or label columns, which is important for accurate model training.
+      fotoooo
