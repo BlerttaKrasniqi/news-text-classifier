@@ -41,12 +41,16 @@ manipulation and model training.
   - 4. **World Cloud Visualization**
        - World Cloud is generated to visualize the most frequent words in the training set.
      <img width="820" height="105" alt="image" src="https://github.com/user-attachments/assets/89a14946-e225-448d-8237-fdf6d15c40af" />
+
+     
           -  This helps understanding the key terms associated with the news articles and their categories.
        
      <img width="1078" height="598" alt="image" src="https://github.com/user-attachments/assets/8be73df9-0dba-4fac-9afd-3b6a968131a6" />
   - 5. **Top words for each category**
        - We compute the top 10 words for each news category using the TF-IDF values.
        <img width="878" height="415" alt="image" src="https://github.com/user-attachments/assets/7c504692-dcb5-4e01-a065-e450f0fd65b4" />
+
+       
             - For each category (World, Sports, Business, Sci/Tech), we compute the mean TF-IDF score for each word, sort them by importance, and print the top 10 words.
        
        <img width="743" height="795" alt="image" src="https://github.com/user-attachments/assets/791c0c7e-1185-4b26-9013-319402c82362" />
@@ -66,8 +70,14 @@ manipulation and model training.
      - Additionally, Naive Bayes is compared, which is a probabilistic model commonly used for text classification tasks.
 - 2. **Training the models**
      - Logistic Regression and Naive Bayes models are trained using the preprocessed data that were created in the previous phase (after TF-IDF vectorization).
+     <img width="663" height="752" alt="image" src="https://github.com/user-attachments/assets/45b9c3df-b5ab-4be2-af5b-d5c37ece03a2" />
+
 - 3. **Model Evaluation**
-     - After training the models, their performance is evaluated on the test data. The evaluation is done using the following metrics: accuracy, precision, recall, and F1-Score. Their performance is also visualized using a confusion matrix, which shows how well the model has classified each category.
+     - After training the models, their performance is evaluated on the test data. The evaluation is done using the following metrics: accuracy, precision, recall, and F1-Score.
+     <img width="529" height="570" alt="image" src="https://github.com/user-attachments/assets/ce5b2823-d1ee-482e-88b5-f4d5ca2140e1" />
+     - Their performance is also visualized using a confusion matrix, which shows how well the model has classified each category.
+     <img width="1874" height="746" alt="image" src="https://github.com/user-attachments/assets/eabdc608-66d4-435e-88c8-d754b79e60c3" />
+     
 - 4. **Model Comparison**
        - By comparing the evaluation metrics of Logistic Regression and Naive Bayes, we can determine which model performs better on this classification task.
        - The confusion matrix provides further insight into the types of errors each model makes.
