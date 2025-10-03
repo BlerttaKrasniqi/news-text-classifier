@@ -59,17 +59,17 @@ foto
 
 ## FastAPI: News Classification API
 - This projects includes a FastAPI app that provides a real-time prediction for classifying news articles into categories like World, Sports, Business, and Sci/Tech.
-- 1. **Running the API: **
+- 1. **Running the API**:
      - To install the dependencies, run the following command in the terminal: **pip install fastapi uvicorn**
      - To start the API server, run the following command in the terminal: **uvicorn src.main:app-reload**
 - 2. **API Endpoints**
      - FastAPI generates interactive Swagger UI for testing the API.
      - **GET /**: A simple message
-     - <img width="1774" height="816" alt="image" src="https://github.com/user-attachments/assets/012d5f96-dfc7-49cf-bbf9-4972a049505d" />
+     <img width="1774" height="816" alt="image" src="https://github.com/user-attachments/assets/012d5f96-dfc7-49cf-bbf9-4972a049505d" />
      - **POST /predict**: Accepts a news article text and predicts its category.
      - Request: http://127.0.0.1:8000/predict
-     - <img width="1816" height="802" alt="image" src="https://github.com/user-attachments/assets/0705c973-fa3e-45ce-aeda-11d9134bcab9" />
+     <img width="1816" height="802" alt="image" src="https://github.com/user-attachments/assets/0705c973-fa3e-45ce-aeda-11d9134bcab9" />
      - Results after execution:
-     - <img width="1773" height="753" alt="image" src="https://github.com/user-attachments/assets/a2873c55-f9d5-45cb-b06c-a11b67339d28" />
+     <img width="1773" height="753" alt="image" src="https://github.com/user-attachments/assets/a2873c55-f9d5-45cb-b06c-a11b67339d28" />
 
 
