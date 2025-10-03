@@ -81,11 +81,11 @@ manipulation and model training.
      - Logistic Regression and Naive Bayes for classifying news articles into categories. Logistic Regression performed better overall, with higher accuracy and precision. The model has been saved for future use.
 ## Prediction
 - A prediction script is provided that defines a function **predict_category(sentence)**. This function accepts a news article (sentence), transforms it into TF-IDF features using the loaded vectorizer, and then predicts its category using the loaded model.
-- The function maps the numerical prediction to the appropriate category using category_mapping.
+     - The function maps the numerical prediction to the appropriate category using category_mapping.
 <img width="583" height="159" alt="image" src="https://github.com/user-attachments/assets/046433fd-c326-48f6-a645-506a1e290841" />
- - The scripts allows the user to enter a news article and get a predicted category.
+      - The scripts allows the user to enter a news article and get a predicted category.
 <img width="628" height="262" alt="image" src="https://github.com/user-attachments/assets/c75ca092-30be-4126-bb95-31e204544ee7" />
-- After executing the script, the user can write a news article and get a prediction that tells in which category the article belongs.
+     - After executing the script, the user can write a news article and get a prediction that tells in which category the article belongs.
 <img width="667" height="89" alt="image" src="https://github.com/user-attachments/assets/4dfb34e6-0160-4b58-9f3a-af69feb9fe13" />
 
 ## FastAPI: News Classification API
